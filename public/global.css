@@ -1,0 +1,39 @@
+.row {
+  height: 16px;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+@media print {
+  @page {
+    margin: 0.5cm;
+  }
+
+  * {
+    color: #000;
+    border: none !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .MuiCard-root {
+    background-color: #FFF !important;
+    border: 1px solid #000 !important;
+    margin: 1px !important;
+    border-radius: 8px !important;
+  }
+
+  .MuiContainer-root {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+  .font-pixel {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
